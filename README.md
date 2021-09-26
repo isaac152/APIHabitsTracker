@@ -10,15 +10,11 @@ I am working to make some kind of score.
 
 ## Endpoints
 
-**User endpoint**
-
 **[POST]** /user/register
 
 **[POST]** /user/login
 
 Just username and password in both cases.
-
-The following require a jwt token.
 
 **[POST]** /user/password
 
@@ -28,11 +24,9 @@ Must send a JSON with the actual and the new password
 
 Just the new user
 
-**Habit endpoint**
-
 **[POST]** /habits/
 
-       {"name":"Programming",
+    {"name":"Programming",
     "description":"Programming cool stuff",
     "days":2}
 
@@ -58,6 +52,6 @@ Clone the repo and install the requirementes. Then change MONGO URI in the confi
 
 ## TO DO
 
-- Score in each habit
-- Testing
-- Add multiple dates in the same request
+- [ ] Score in each habit
+- [ ] Testing
+- [ ] Add multiple dates in the same request

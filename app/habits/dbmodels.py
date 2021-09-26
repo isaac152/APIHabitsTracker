@@ -1,3 +1,0 @@
-#Habits
-#Scores
-#Datalist
